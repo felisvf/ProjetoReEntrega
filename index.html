@@ -12,28 +12,34 @@
       integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css" 
+    />
+    
     <title>EmotionsMaker</title>
   </head>
 
   <body class="bodyindex">
-    <h1>Emotion Maker</h1>
+    <div id="particle-container">
+    
 
-    <header>
+    <header class="headerindex">
+      <nav>
       <div class="collapse" id="navbarToggleExternalContent">
-        <div class="bg-dark p-4">
-          <h5 class="text-white h4">Emotions Maker</h5>
-          <p><a href="./pagesbt/aboutus.html">AboutUS</a></p>
-          <p><a href="./pagesbt/whatwedo.html">WhaWeDo</a></p>
-          <p><a href="./pagesbt/love.html">Love</a></p>
-          <p><a href="./pagesbt/laught.html">Laught</a></p>
-          <p><a href="./pagesbt/terror.html">Terror</a></p>
-          <p><a href="./pagesbt/sad.html">Sad</a></p>
-          <p><a href="./pagesbt/confused.html">Confused</a></p>
+        <div class="menu">
+          <h5 class="text-white h4">Welcome!</h5>
+          <ul>
+            <li><a href="./pagesbt/aboutus.html">AboutUS</a></li>
+            <li><a href="./pagesbt/whatwedo.html">WhaWeDo</a></li>
+            <li><a href="./pagesbt/love.html">Love</a></li>
+            <li><a href="./pagesbt/laught.html">Laught</a></li>
+            <li><a href="./pagesbt/terror.html">Terror</a></li>
+            <li><a href="./pagesbt/sad.html">Sad</a></li>
+            <li><a href="./pagesbt/confused.html">Confused</a></li>
+          </ul>
 
-          <span class="text-muted">Toggleable via the navbar brand.</span>
         </div>
       </div>
+    </nav>
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
           <button
@@ -48,15 +54,22 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
-      </nav>
+      
     </header>
 
     <main>
+      <h1>Emotions Maker</h1>
+
+      <h2>All Emotes</h2>
       <div class="containercards">
         <div class="card" style="width: 18rem">
-          <img src="./img/heartgirl.png" class="card-img-top" alt="..." />
+          <img
+            src="./img/heartgirl.jpg"
+            class="card-img-top"
+            alt="Girlwitheartinhand"
+          />
           <div class="card-body">
-            <h5 class="card-title">Love</h5>
+            <h5 class="card-title.">Love</h5>
             <p class="card-text">
               In this emotion you will find an image that will make you feel
               love or something similar
@@ -66,7 +79,11 @@
         </div>
 
         <div class="card" style="width: 18rem">
-          <img src="./img/laught.png" class="card-img-top" alt="..." />
+          <img
+            src="./img/laught.jpg"
+            class="card-img-top"
+            alt="GirlSmileWithMonkey"
+          />
           <div class="card-body">
             <h5 class="card-title">Laught</h5>
             <p class="card-text">
@@ -77,7 +94,7 @@
         </div>
 
         <div class="card" style="width: 18rem">
-          <img src="./img/night.jpg" class="card-img-top" alt="..." />
+          <img src="./img/night.jpg" class="card-img-top" alt="Nightforest" />
           <div class="card-body">
             <h5 class="card-title">Terror</h5>
             <p class="card-text">
@@ -89,7 +106,7 @@
         </div>
 
         <div class="card" style="width: 18rem">
-          <img src="./img/sadball.jpg" class="card-img-top" alt="..." />
+          <img src="./img/sadball.jpg" class="card-img-top" alt="sadball" />
           <div class="card-body">
             <h5 class="card-title">Sad</h5>
             <p class="card-text">
@@ -101,7 +118,11 @@
         </div>
 
         <div class="card" style="width: 18rem">
-          <img src="./img/confused.png" class="card-img-top" alt="..." />
+          <img
+            src="./img/confused.jpg"
+            class="card-img-top"
+            alt="man with a sign of scrumation in his hand"
+          />
           <div class="card-body">
             <h5 class="card-title">Confused</h5>
             <p class="card-text">
